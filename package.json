@@ -13,8 +13,8 @@
   },
   "homepage": "https://github.com/Decury/decury",
   "scripts": {
-    "start": "parcel -p 80 ./src/index.html",
-    "test": "parcel ./src/index.html"
+    "start": "parcel -p 8080 index.html",
+    "test": "parcel index.html"
   },
   "dependencies": {
     "core-js": "^3.6.4",
