@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <title>{{ title }}</title>
-    <Header title="Decury"/>
-    <Body/>
+    <Header title="Decury"></Header>
+    <Body><Body/>
   </div>
 </template>
 
