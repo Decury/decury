@@ -13,21 +13,20 @@
   },
   "homepage": "https://github.com/Decury/decury",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "start": "parcel -p 80 ./src/index.html",
+    "test": "parcel ./src/index.html"
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.2.0",
-    "@vue/cli-plugin-eslint": "~4.2.0",
-    "@vue/cli-service": "~4.2.0",
+    "@vue/component-compiler-utils": "^3.1.1",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
+    "parcel-bundler": "^1.12.4",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
