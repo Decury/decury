@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <title>{{ title }}</title>
-    <Header title="Decury"></Header>
+    <Header v-bind:logoname="title"></Header>
     <Body><Body/>
   </div>
 </template>

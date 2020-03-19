@@ -1,6 +1,6 @@
 <template>
 <ul class="nav-mobile check">
-  <li><img href="#" class="logoicon" src="../assets/icon.svg">{{ title }}</li>
+  <li><img href="#" class="logoicon" src="../assets/icon.svg">{{ logoname }}</li>
   <li class="menu-container">
     <input id="menu-toggle" type="checkbox">
     <label for="menu-toggle" class="menu-button">
@@ -13,39 +13,26 @@
       </svg>
     </label>
     <ul class="menu-sidebar">
-      <li><a href="#">Item</a></li>
-      <li><a href="#">Item</a></li>
-      <li><a href="#">Item</a></li>
+      <li><a href="#">Streams</a></li>
+      <li><a href="#">Classroom</a></li>
+      <li><a href="#">Homeworks</a></li>
       <li>
         <input type="checkbox" id="sub-one" class="submenu-toggle">
-        <label class="submenu-label" for="sub-one">Category</label>
+        <label class="submenu-label" for="sub-one">Curriculum</label>
         <div class="arrow right">&#8250;</div>
         <ul class="menu-sub">
           <li class="menu-sub-title">
             <label class="submenu-label" for="sub-one">Back</label>
             <div class="arrow left">&#8249;</div>
           </li>
-          <li><a href="#">Sub-item</a></li>
-          <li><a href="#">Sub-item</a></li>
-          <li><a href="#">Sub-item</a></li>
-          <li><a href="#">Sub-item</a></li>
+          <li><a href="#">Lessons</a></li>
+          <li><a href="#">Exams</a></li>
+          <li><a href="#">Grades</a></li>
         </ul>
       </li>
-      <li>
-        <input type="checkbox" id="sub-two" class="submenu-toggle">
-        <label class="submenu-label" for="sub-two">Category</label>
-        <div class="arrow right">&#8250;</div>
-        <ul class="menu-sub">
-          <li class="menu-sub-title">
-            <label class="submenu-label" for="sub-two">Back</label>
-            <div class="arrow left">&#8249;</div>
-          </li>
-          <li><a href="#">Sub-item</a></li>
-          <li><a href="#">Sub-item</a></li>
-          <li><a href="#">Sub-item</a></li>
-          <li><a href="#">Sub-item</a></li>
-        </ul>
-      </li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Exit</a></li>
     </ul>
   </li>
 </ul>
@@ -55,7 +42,7 @@
 export default {
   name: 'Header',
   props: {
-    title: String
+    logoname: String
   }
 }
 </script>
