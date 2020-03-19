@@ -16,7 +16,8 @@ export default {
   name: 'app',
   components: {
     Header,
-    Body
+    Body,
+    Footer
   },
   data() {
     return {
@@ -26,14 +27,7 @@ export default {
 }
 </script>
 
-<style>
-html {
-  font-family: 'HammersmithOne'
-}
+<style lang="scss">
+@import './assets/stylesheet/_variables.scss';
 
-body {
-  margin: 0;
-  padding: 0;
-  background: #f5f5f5;
-}
 </style>

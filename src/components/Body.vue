@@ -12,14 +12,30 @@
   }
 </script>
 
+<style lang="scss">
+@import '../assets/stylesheet/_variables.scss';
+body, html {
+margin: 0;
+font-family: OpenSans;
+height: 100vh;
+background: $white;
+}
+
+*, *:before, *:after {
+box-sizing: border-box;
+}
+</style>
+
 <style scoped>
 
 .profile {
+  margin-left: auto ;
+  margin-right: auto ;
   position: relative;
-  width: 100%;
+  width: 80%;
+  margin-top: 60px;
   height: 80px;
   background: gray;
-  border-radius: 8%;
 }
 
 .user {
