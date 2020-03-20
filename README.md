@@ -1,4 +1,4 @@
-![Decury](https://decury.github.io/assets/logo.png =200x)
+![Decury](logo.png)
 
 A **[free/libre](https://www.gnu.org/philosophy/free-sw.html)** Learning Management System (LMS) for schools.  
 
