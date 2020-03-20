@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Libre LMS (Learning Management System) for schools.",
   "author": "Decury",
-  "license": "GPL-2.0",
+  "license": "AGPL-3.0-or-later",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Decury/decury.git"
