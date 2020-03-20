@@ -15,7 +15,18 @@
 *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-import Vue from 'vue';
-import App from './App.vue';
+import Vue from 'vue'
+import App from './App.vue'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faSchool } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faUserSecret)
+library.add(faSchool)
+ 
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+ 
+Vue.config.productionTip = false
 
 new Vue({ render: createElement => createElement(App) }).$mount('#app');

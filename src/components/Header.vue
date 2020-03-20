@@ -14,7 +14,7 @@
     </label>
     <ul class="menu-sidebar">
       <li><a href="#">Streams</a></li>
-      <li><a href="#">Classroom</a></li>
+      <li><font-awesome-icon icon="school"/><a href="#">Classroom</a></li>
       <li><a href="#">Homeworks</a></li>
       <li>
         <input type="checkbox" id="sub-one" class="submenu-toggle">

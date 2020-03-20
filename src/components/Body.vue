@@ -1,5 +1,8 @@
 <template>
   <body>
+    <div class="classroomdiv">
+  <h1 style="margin-bottom:-40px; margin-top:50px;">Your Classroom</h1>
+  <h3 style="margin-bottom:-30px; margin-top:45px; color:grey; ">Overview of your classroom.</h3>
     <div class="wrapper">
       <div class="box profile">
         <div><img class="user" src="../assets/user.jpg"></div>
@@ -22,6 +25,115 @@
           <a>{{ classroom }}</a>
         </div>
       </div>
+    </div>
+    </div>
+    <div class="classesdiv">
+  <h1 style="margin-bottom:-40px; margin-top:50px;">Your Lessons</h1>
+  <h3 style="margin-bottom:-30px; margin-top:45px; color:grey; ">Lessons you take.</h3>
+    <div class="wrapper">
+      <div class="box profile">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+      <div class="box streaming">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+      <div class="box">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+    </div>
+    </div>
+        <div class="assignmentsdiv">
+     <h1 style="margin-bottom:-40px; margin-top:50px;">Your Assignments</h1>
+    <h3 style="margin-bottom:-30px; margin-top:45px; color:grey;">Upcoming classwork you're assigned to.</h3>
+    <div class="wrapper">
+      <div class="box profile">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+      <div class="box streaming">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+      <div class="box">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+    </div>
+    </div>
+        <div class="teachersdiv">
+    <h1 style="margin-bottom:-40px; margin-top:50px;">Your Teachers</h1>
+    <h3 style="margin-bottom:-30px; margin-top:45px; color:grey;">Teachers in classes you participate.</h3>
+    <div class="wrapper">
+      <div class="box profile">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+      <div class="box streaming">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+      <div class="box">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="postsdiv">
+    <h1 style="margin-bottom:-40px; margin-top:50px;">Posts</h1>
+    <h3 style="margin-bottom:-30px; margin-top:45px; color:grey;">Posts from your classmates and teachers.</h3>
+    <div class="wrapper">
+      <div class="box profile">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+      <div class="box streaming">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+      <div class="box">
+        <div><img class="user" src="../assets/user.jpg"></div>
+        <div class="info">
+          <a>{{ name }} {{ surname }}</a></br>
+          <a>{{ classroom }}</a>
+        </div>
+      </div>
+    </div>
     </div>
   </body>
 </template>
