@@ -3,6 +3,7 @@
     <title>{{ title }}</title>
     <Header v-bind:logoname="title"></Header>
     <Body><Body/>
+    <router-view></router-view>
   </div>
 </template>
 

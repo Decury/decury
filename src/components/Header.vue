@@ -14,19 +14,24 @@
     </label>
     <ul class="menu-sidebar">
       <li>
+        <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-q</title><path d="M326.1,231.9l-47.5,75.5a31,31,0,0,1-7,7,30.11,30.11,0,0,1-35-49l75.5-47.5a10.23,10.23,0,0,1,11.7,0A10.06,10.06,0,0,1,326.1,231.9Z"/><path d="M256,64C132.3,64,32,164.2,32,287.9A223.18,223.18,0,0,0,88.3,436.4c1.1,1.2,2.1,2.4,3.2,3.5a25.19,25.19,0,0,0,37.1-.1,173.13,173.13,0,0,1,254.8,0,25.19,25.19,0,0,0,37.1.1l3.2-3.5A223.18,223.18,0,0,0,480,287.9C480,164.2,379.7,64,256,64Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="256" y1="128" x2="256" y2="160" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="416" y1="288" x2="384" y2="288" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="128" y1="288" x2="96" y2="288" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="165.49" y1="197.49" x2="142.86" y2="174.86" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="346.51" y1="197.49" x2="369.14" y2="174.86" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/>
+        </svg>
+        <a href="#"><router-link to="/Dashboard">Dashboard</router-link></a>
+      </li>
+      <li>
         <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-p</title><circle cx="256" cy="256.02" r="32"/><path d="M184.25,192.25a96,96,0,0,0,0,127.52" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M327.77,319.77a96,96,0,0,0,0-127.52" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M133.28,141.28a168,168,0,0,0,0,229.44" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M378.72,370.72a168,168,0,0,0,0-229.44" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M435,416a240.34,240.34,0,0,0,0-320" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M77,96a240.34,240.34,0,0,0,0,320" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/>
         </svg>
-        <a href="#">Streams</a>
+        <a href="#"><router-link to="/Streams">Streams</router-link></a>
       </li>
       <li>
         <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-q</title><polygon points="32 192 256 64 480 192 256 320 32 192" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><polyline points="112 240 112 368 256 448 400 368 400 240" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="480" y1="368" x2="480" y2="192" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="256" y1="320" x2="256" y2="448" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/>
         </svg>
-        <a href="#">Classroom</a>
+        <a href="#"><router-link to="/Classroom">Classroom</router-link></a>
       </li>
       <li>
         <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-l</title><rect x="32" y="96" width="64" height="368" rx="16" ry="16" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"/><line x1="112" y1="224" x2="240" y2="224" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="112" y1="400" x2="240" y2="400" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><rect x="112" y="160" width="128" height="304" rx="16" ry="16" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"/><rect x="256" y="48" width="96" height="416" rx="16" ry="16" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"/><path d="M422.46,96.11l-40.4,4.25c-11.12,1.17-19.18,11.57-17.93,23.1l34.92,321.59c1.26,11.53,11.37,20,22.49,18.84l40.4-4.25c11.12-1.17,19.18-11.57,17.93-23.1L445,115C443.69,103.42,433.58,94.94,422.46,96.11Z" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"/>
         </svg>
-        <a href="#">Homeworks</a>
+        <a href="#"><router-link to="/Homeworks">Homeworks</router-link></a>
       </li>
       <li>
         <input type="checkbox" id="sub-one" class="submenu-toggle">
@@ -42,7 +47,7 @@
           <li>
             <svg class="menu-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m331 356.751 133.25-87.857-133.25-87.857zm30-120 48.75 32.143-48.75 32.143z"/><path d="m258.857 102.772c-4.819-2.322-74.558-58.878-183.857-58.878h-15v50.789c-31.82 4.739-53.099 10.908-60 12.499v360.923c10.491-1.418 115.881-38.778 252.362-4.66l3.638.91 3.638-.91c136.637-34.159 241.824 3.235 252.362 4.66v-360.923c-6.95-.924-115.604-36.868-253.143-4.41zm-228.857 327.283v-299.301c9.922-2.223 19.947-4.134 30-5.727v278.867h15c32.339 0 64.742 5.675 95.207 16.398-46.879-3.165-94.164.084-140.207 9.763zm211-8.989c-44.906-27.861-97.703-44.208-151-46.806v-299.962c90.301 4.857 146.383 50.327 151 52.624zm241 8.989c-69.395-14.588-141.607-14.588-211 0v-299.301c69.271-15.524 141.728-15.524 211 0z"/></g>
             </svg>
-            <a href="#">Lessons</a>
+            <a href="#"><router-link to="/Lessons">Lessons</router-link></a>
           </li>
           <li>
             <svg class="menu-icon" id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path
@@ -51,24 +56,24 @@
               d="m340.996 343.416c2.929 2.929 6.768 4.394 10.606 4.394s7.678-1.465 10.606-4.394l42.07-42.07c5.858-5.857 5.858-15.355 0-21.213-5.857-5.857-15.355-5.857-21.213 0l-31.464 31.464-8.776-8.776c-5.857-5.857-15.355-5.857-21.213 0s-5.858 15.355 0 21.213z"/><path
               d="m383.066 378.607-31.464 31.463-8.776-8.776c-5.857-5.857-15.355-5.857-21.213 0s-5.858 15.355 0 21.213l19.383 19.383c2.929 2.93 6.767 4.394 10.606 4.394 3.838 0 7.678-1.465 10.606-4.394l42.07-42.069c5.858-5.857 5.858-15.355 0-21.213-5.858-5.859-15.354-5.859-21.212-.001z"/><path d="m279.481 194.762h-154.92c-8.284 0-15 6.716-15 15s6.716 15 15 15h154.92c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/><path d="m279.481 296.774h-154.92c-8.284 0-15 6.716-15 15s6.716 15 15 15h154.92c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/><path d="m279.481 395.248h-154.92c-8.284 0-15 6.716-15 15s6.716 15 15 15h154.92c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/><path d="m124.561 91.027h46.953c8.284 0 15-6.716 15-15s-6.716-15-15-15h-46.953c-8.284 0-15 6.716-15 15s6.715 15 15 15z"/><path d="m124.561 143.128h102.054c8.284 0 15-6.716 15-15s-6.716-15-15-15h-102.054c-8.284 0-15 6.716-15 15s6.715 15 15 15z"/>
             </svg>
-            <a href="#">Exams</a>
+            <a href="#"><router-link to="/Exams">Exams</router-link></a>
           </li>
           <li>
             <svg class="menu-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m449.097 242.299.316-242.299h-386.738l-.316 242.299h-24.026v269.701h435.333v-269.701zm-29.723-212.299-.298 228.581-99.915 65.847v-39.142c35.053-21.377 58.506-59.978 58.506-103.953 0-67.087-54.579-121.666-121.667-121.666-67.087 0-121.666 54.58-121.666 121.666 0 43.976 23.452 82.575 58.506 103.953v39.124l-100.502-66.211.298-228.199zm-163.375 340.149-33.16 16.58v-88.323c10.546 2.991 21.669 4.594 33.16 4.594s22.615-1.603 33.161-4.594v88.323zm-91.666-188.816c0-50.545 41.121-91.666 91.666-91.666s91.667 41.122 91.667 91.666-41.122 91.667-91.667 91.667-91.666-41.122-91.666-91.667zm28.506 179.003v74.935l63.16-31.58 63.161 31.58v-74.915l124.506-82.052v203.696h-375.332v-203.69z"/><path d="m242.792 229.671h30.001v-96.675h-44.253v30h14.252z"/></g>
             </svg>
-            <a href="#">Grades</a>
+            <a href="#"><router-link to="/Grades">Grades</router-link></a>
           </li>
         </ul>
       </li>
       <li>
         <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-q</title><path d="M262.29,192.31a64,64,0,1,0,57.4,57.4A64.13,64.13,0,0,0,262.29,192.31ZM416.39,256a154.34,154.34,0,0,1-1.53,20.79l45.21,35.46A10.81,10.81,0,0,1,462.52,326l-42.77,74a10.81,10.81,0,0,1-13.14,4.59l-44.9-18.08a16.11,16.11,0,0,0-15.17,1.75A164.48,164.48,0,0,1,325,400.8a15.94,15.94,0,0,0-8.82,12.14l-6.73,47.89A11.08,11.08,0,0,1,298.77,470H213.23a11.11,11.11,0,0,1-10.69-8.87l-6.72-47.82a16.07,16.07,0,0,0-9-12.22,155.3,155.3,0,0,1-21.46-12.57,16,16,0,0,0-15.11-1.71l-44.89,18.07a10.81,10.81,0,0,1-13.14-4.58l-42.77-74a10.8,10.8,0,0,1,2.45-13.75l38.21-30a16.05,16.05,0,0,0,6-14.08c-.36-4.17-.58-8.33-.58-12.5s.21-8.27.58-12.35a16,16,0,0,0-6.07-13.94l-38.19-30A10.81,10.81,0,0,1,49.48,186l42.77-74a10.81,10.81,0,0,1,13.14-4.59l44.9,18.08a16.11,16.11,0,0,0,15.17-1.75A164.48,164.48,0,0,1,187,111.2a15.94,15.94,0,0,0,8.82-12.14l6.73-47.89A11.08,11.08,0,0,1,213.23,42h85.54a11.11,11.11,0,0,1,10.69,8.87l6.72,47.82a16.07,16.07,0,0,0,9,12.22,155.3,155.3,0,0,1,21.46,12.57,16,16,0,0,0,15.11,1.71l44.89-18.07a10.81,10.81,0,0,1,13.14,4.58l42.77,74a10.8,10.8,0,0,1-2.45,13.75l-38.21,30a16.05,16.05,0,0,0-6.05,14.08C416.17,247.67,416.39,251.83,416.39,256Z" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/>
         </svg>
-        <a href="#">Settings</a>
+        <a href="#"><router-link to="/Settings">Settings</router-link></a>
       </li>
       <li>
         <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-e</title><path d="M248,64C146.39,64,64,146.39,64,248s82.39,184,184,184,184-82.39,184-184S349.61,64,248,64Z" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"/><polyline points="220 220 252 220 252 336" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="208" y1="340" x2="296" y2="340" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><path d="M248,130a26,26,0,1,0,26,26A26,26,0,0,0,248,130Z"/>
         </svg>
-        <a href="#">About</a>
+        <a href="#"><router-link to="/About">About</router-link></a>
       </li>
       <li>
         <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-o</title><path d="M304,336v40a40,40,0,0,1-40,40H104a40,40,0,0,1-40-40V136a40,40,0,0,1,40-40H256c22.09,0,48,17.91,48,40v40" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><polyline points="368 336 448 256 368 176" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="176" y1="256" x2="432" y2="256" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/>
