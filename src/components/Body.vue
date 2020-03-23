@@ -245,7 +245,7 @@ a{
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
-  margin-bottom:20px;
+  margin-bottom:0px;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
