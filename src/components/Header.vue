@@ -1,6 +1,6 @@
 <template>
 <ul class="nav-mobile check">
-  <li class="logo"><img href="#" class="logoicon" src="../assets/icon.svg">{{ logoname }}</li>
+  <li class="logo">{{ logoname }}</li>
   <li class="menu-container">
     <input id="menu-toggle" type="checkbox">
     <label for="menu-toggle" class="menu-button">
