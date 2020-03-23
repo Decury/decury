@@ -19,6 +19,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 
+import Home from './pages/Home.vue'
 import Dashboard from './pages/Dashboard.vue'
 import Streams from './pages/Streams.vue'
 import Classroom from './pages/Classroom.vue'
@@ -34,39 +35,43 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   routes: [
     {
+      path: '/',
+      component: Home
+    },
+    {
       path: '/Dashboard',
       component: Dashboard
     },
     {
-      path: '/',
+      path: '/Streams',
       component: Streams
     },
     {
-      path: '/',
+      path: '/Classroom',
       component: Classroom
     },
     {
-      path: '/',
+      path: '/Homeworks',
       component: Homeworks
     },
     {
-      path: '/',
+      path: '/Lessons',
       component: Lessons
     },
     {
-      path: '/',
+      path: '/Exams',
       component: Exams
     },
     {
-      path: '/',
+      path: '/Grades',
       component: Grades
     },
     {
-      path: '/',
+      path: '/Settings',
       component: Settings
     },
     {
-      path: '/',
+      path: '/About',
       component: About
     }
   ],
