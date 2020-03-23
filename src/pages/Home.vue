@@ -194,9 +194,17 @@ body {
     display: block;
 }
 
+h1 {
+    font-size: 3vw;
+}
+
 h2 {
     width: 100%;
     font-size: 2vw;
+}
+
+h3 {
+    font-size: 1.5vw;
 }
 
 .card:hover {
@@ -262,9 +270,16 @@ a {
       width: 50%;
       padding: 0 10px;
   }
+  h1 {
+    font-size: calc(2em + 0.5vw);
+  }
   h2 {
     font-size: calc(1.5em + 0.5vw);
   }
+  h3 {
+    font-size: calc(1em + 0.5vw);
+  }
+
 }
 
 @media screen and (max-width: 600px) {
