@@ -23,7 +23,7 @@ import Home from './pages/Home.vue'
 import Dashboard from './pages/Dashboard.vue'
 import Streams from './pages/Streams.vue'
 import Classroom from './pages/Classroom.vue'
-import Homeworks from './pages/Homeworks.vue'
+import Homework from './pages/Homework.vue'
 import Lessons from './pages/Lessons.vue'
 import Exams from './pages/Exams.vue'
 import Grades from './pages/Grades.vue'
@@ -51,8 +51,8 @@ const router = new VueRouter({
       component: Classroom
     },
     {
-      path: '/Homeworks',
-      component: Homeworks
+      path: '/Homework',
+      component: Homework
     },
     {
       path: '/Lessons',

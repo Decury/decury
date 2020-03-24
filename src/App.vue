@@ -2,7 +2,9 @@
   <div id="app">
     <title>{{ title }}</title>
     <Header v-bind:logoname="title"></Header>
-    <router-view></router-view>
+    <body>
+      <router-view></router-view>
+    </body>
   </div>
 </template>
 
@@ -29,5 +31,22 @@ export default {
 
 <style lang="scss">
 @import './assets/stylesheet/_variables.scss';
+body,
+html {
+    margin: 0;
+    font-family: OpenSans;
+    height: 100vh;
+    background: $white;
+    color: $gray;
+}
 
+body {
+    padding: 10px;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-<body>
+<div>
   <div class="classroomdiv">
     <h1 style="margin-bottom:-40px; margin-top:50px;">Your Classroom</h1>
     <h3 style="margin-bottom:-30px; margin-top:45px; color:grey; ">Overview of your classroom.</h3>
@@ -108,12 +108,12 @@
           </div>
         </div>
 
-</body>
+      </div>
 </template>
 
 <script>
 export default {
-  name: 'Body',
+  name: 'Home',
 
   data() {
     return {
@@ -133,28 +133,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import '../assets/stylesheet/_variables.scss';
-body,
-html {
-    margin: 0;
-    font-family: OpenSans;
-    height: 100vh;
-    background: $white;
-    color: $gray;
-}
-
-body {
-    padding: 10px;
-}
-
-*,
-*:after,
-*:before {
-    box-sizing: border-box;
-}
-</style>
-
 <style lang="scss" scoped>
 @import '../assets/stylesheet/_variables.scss';
 
@@ -172,10 +150,10 @@ body {
 }
 
 .teacherslist {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  text-align: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: center;
 }
 
 .avatar {
@@ -194,12 +172,10 @@ body {
     display: block;
 }
 
-
 h2 {
     width: 100%;
     font-size: 2vw;
 }
-
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -259,15 +235,15 @@ a {
 }
 
 @media only screen and (max-width: 886px) {
-  .column {
-      float: left;
-      width: 50%;
-      padding: 0 10px;
-  }
-  
-  h2 {
-    font-size: calc(1.5em + 0.5vw);
-  }
+    .column {
+        float: left;
+        width: 50%;
+        padding: 0 10px;
+    }
+
+    h2 {
+        font-size: calc(1.5em + 0.5vw);
+    }
 
 }
 
