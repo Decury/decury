@@ -1,7 +1,7 @@
 <template>
 <ul class="nav-mobile check">
-  <li class="logo">Decury</li>
-  <li class="schoolname">Liceo Italiano I.M.I</li>
+  <li class="logo">Liceo Italiano I.M.I</li>
+  <li class="schoolname">powered by Decury</li>
   <li class="menu-container">
     <input id="menu-toggle" type="checkbox">
     <label for="menu-toggle" class="menu-button">
@@ -161,6 +161,11 @@ export default {
     display: flex;
     justify-content: center;
     color: #bdbdbd;
+    position: unset;
+    font-size: 18px;
+    padding-top: -15px;
+    padding-bottom: -3px;
+
   }
 
   .logoicon {
