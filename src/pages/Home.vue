@@ -168,7 +168,6 @@ export default {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
     display: block;
@@ -180,7 +179,7 @@ h2 {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
 }
 
 .container {
@@ -229,10 +228,10 @@ a {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 7px 0px rgba(88, 69, 164, 0.11);
     padding: 16px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #F5F5F5;
     margin-bottom: 20px;
 }
 
