@@ -17,7 +17,6 @@ export default {
   name: 'app',
   components: {
     Header,
-    Body,
     Footer
   },
   data() {
