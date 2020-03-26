@@ -76,18 +76,18 @@
         <div class="row1">
 
 
-          <div class="row">
-            <div class="column">
-              <div class="card">..</div>
+          <div class="horizontalrow">
+            <div class="scrollablecolumn">
+              <div class="scrollablecard">..</div>
             </div>
-            <div class="column">
-              <div class="card">..</div>
+            <div class="scrollablecolumn">
+              <div class="scrollablecard">..</div>
             </div>
-            <div class="column">
-              <div class="card">..</div>
+            <div class="scrollablecolumn">
+              <div class="scrollablecard">..</div>
             </div>
-            <div class="column">
-              <div class="card">..</div>
+            <div class="scrollablecolumn">
+              <div class="scrollablecard">..</div>
             </div>
           </div>
 
@@ -154,6 +154,12 @@ export default {
     overflow-y: hidden;
     white-space: nowrap;
     text-align: center;
+    display: flex;
+    justify-content: left;
+}
+
+.classroomdiv {
+
 }
 
 .avatar {
@@ -166,7 +172,6 @@ export default {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
     display: block;
@@ -178,7 +183,7 @@ h2 {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
 }
 
 .container {
@@ -216,8 +221,22 @@ a {
     padding: 0 10px;
 }
 
+.scrollablecolumn {
+    float: left;
+    min-width: 390px;
+    max-width: 390px;
+    padding: 0 10px;
+}
+
 .row {
     margin: 0 -5px;
+}
+
+.horizontalrow {
+    margin: 0 -5px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
 }
 
 .row:after {
@@ -227,11 +246,21 @@ a {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 7px 0px rgba(88, 69, 164, 0.11);
     padding: 16px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #F5F5F5;
+    margin-bottom: -25px;
+}
+
+.scrollablecard {
+    box-shadow: 0px 2px 7px 0px rgba(88, 69, 164, 0.11);
+    padding: 16px;
+    text-align: center;
+    background-color: #F5F5F5;
     margin-bottom: 20px;
+    max-width: 390;
+    min-width: 390;
 }
 
 @media only screen and (max-width: 886px) {
