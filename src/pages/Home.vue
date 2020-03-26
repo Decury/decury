@@ -159,7 +159,7 @@ export default {
 }
 
 .classroomdiv {
-margin-top:110px;
+
 }
 
 .avatar {
