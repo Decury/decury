@@ -76,18 +76,18 @@
         <div class="row1">
 
 
-          <div class="row">
-            <div class="column">
-              <div class="card">..</div>
+          <div class="horizontalrow">
+            <div class="scrollablecolumn">
+              <div class="scrollablecard">..</div>
             </div>
-            <div class="column">
-              <div class="card">..</div>
+            <div class="scrollablecolumn">
+              <div class="scrollablecard">..</div>
             </div>
-            <div class="column">
-              <div class="card">..</div>
+            <div class="scrollablecolumn">
+              <div class="scrollablecard">..</div>
             </div>
-            <div class="column">
-              <div class="card">..</div>
+            <div class="scrollablecolumn">
+              <div class="scrollablecard">..</div>
             </div>
           </div>
 
@@ -217,8 +217,22 @@ a {
     padding: 0 10px;
 }
 
+.scrollablecolumn {
+    float: left;
+    min-width: 390px;
+    max-width: 390px;
+    padding: 0 10px;
+}
+
 .row {
     margin: 0 -5px;
+}
+
+.horizontalrow {
+    margin: 0 -5px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
 }
 
 .row:after {
@@ -233,6 +247,16 @@ a {
     text-align: center;
     background-color: #F5F5F5;
     margin-bottom: -25px;
+}
+
+.scrollablecard {
+    box-shadow: 0px 2px 7px 0px rgba(88, 69, 164, 0.11);
+    padding: 16px;
+    text-align: center;
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+    max-width: 390;
+    min-width: 390;
 }
 
 @media only screen and (max-width: 886px) {
