@@ -107,8 +107,8 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  background: $primary-color;
-  color: $white;
+  background: $white;
+  color: $primary-color;
   font-family: HammersmithOne;
   padding: 0;
   margin: 0;
@@ -122,7 +122,7 @@ export default {
     height: 50px;
     width: 65px;
     padding: 9px;
-    path { fill: $white; }
+    path { fill: $primary-color; }
     &.icon-close {
       display: none;
       padding: 15px;
