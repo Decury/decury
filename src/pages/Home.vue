@@ -154,6 +154,8 @@ export default {
     overflow-y: hidden;
     white-space: nowrap;
     text-align: center;
+    display: flex;
+    justify-content: left;
 }
 
 .avatar {
