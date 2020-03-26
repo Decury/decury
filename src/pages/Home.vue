@@ -158,6 +158,10 @@ export default {
     justify-content: left;
 }
 
+.classroomdiv {
+margin-top:110px;
+}
+
 .avatar {
     vertical-align: middle;
     width: 150px;

@@ -1,6 +1,7 @@
 <template>
 <ul class="nav-mobile check">
   <li class="logo">{{ logoname }}</li>
+  <li class="schoolname">Liceo Italiano I.M.I</li>
   <li class="menu-container">
     <input id="menu-toggle" type="checkbox">
     <label for="menu-toggle" class="menu-button">
@@ -152,6 +153,11 @@ export default {
 
   .logo {
     display: block;
+    font-size:35px !important;
+    margin-top:8px;
+  }
+
+  .schoolname {
   }
 
   .logoicon {
