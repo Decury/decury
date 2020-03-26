@@ -232,7 +232,7 @@ a {
     padding: 16px;
     text-align: center;
     background-color: #F5F5F5;
-    margin-bottom: 20px;
+    margin-bottom: -25px;
 }
 
 @media only screen and (max-width: 886px) {
