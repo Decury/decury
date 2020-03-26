@@ -1,13 +1,19 @@
 <template>
 <div>
-  <div class="classroomdiv">
     <h1 style="margin-bottom:-40px; margin-top:50px;">Your Classroom</h1>
     <h3 style="margin-bottom:-30px; margin-top:45px; color:grey; ">Overview of your classroom.</h3>
     <div class="row1">
-      <div class="card">
-        <div class="container">
-          <h4><b>10-C</b></h4>
-          <p>18 students</p>
+      <div class="profile-grid">
+        <div class="card">
+          <div class="upper-container">
+            <div class="profile">
+              <img src="../assets/user.jpg" alt="Profile">
+            </div>
+          </div>
+          <div class="lower-container">
+            <h2>{{ name }} {{ surname }}</h2>
+            <p>{{ classroom }} - NO: {{ id }}</p>
+          </div>
         </div>
       </div>
 
@@ -120,7 +126,8 @@ export default {
       name: 'Tan Siret',
       surname: 'Akıncı',
       room: 'A',
-      grade: '10'
+      grade: '10',
+      id: '123'
     }
   },
 
@@ -175,6 +182,11 @@ export default {
     transition: 0.3s;
     border-radius: 5px;
     display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: $white;
+    margin-bottom: -25px;
 }
 
 h2 {
@@ -183,17 +195,37 @@ h2 {
 }
 
 .card:hover {
-        box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container {
-    padding: 2px 16px;
+.upper-container {
+  height: 100px;
+  background: $primary-color;
+  display: block;
+}
+
+.lower-container {
+  background: $white;
+  display: inline-block;
+  height: 50px;
+}
+
+.lower-container h2{
+  padding-top: 0;
 }
 
 .profile {
-    margin-top: 50px;
-    grid-column: 1/4;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
 }
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
 .user {
     border-radius: 50%;
     height: 50px;
@@ -245,19 +277,11 @@ a {
     clear: both;
 }
 
-.card {
-    box-shadow: 0px 2px 7px 0px rgba(88, 69, 164, 0.11);
-    padding: 16px;
-    text-align: center;
-    background-color: #F5F5F5;
-    margin-bottom: -25px;
-}
-
 .scrollablecard {
     box-shadow: 0px 2px 7px 0px rgba(88, 69, 164, 0.11);
     padding: 16px;
     text-align: center;
-    background-color: #F5F5F5;
+    background-color: $white;
     margin-bottom: 20px;
     max-width: 390;
     min-width: 390;

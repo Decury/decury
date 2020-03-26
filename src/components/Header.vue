@@ -1,7 +1,6 @@
 <template>
 <ul class="nav-mobile check">
-  <li class="logo">Liceo Italiano I.M.I</li>
-  <li class="schoolname">powered by Decury</li>
+  <li class="logo"><img href="#" class="logoicon" src="../assets/icon.svg"> | {{ logoname }}</li>
   <li class="menu-container">
     <input id="menu-toggle" type="checkbox">
     <label for="menu-toggle" class="menu-button">
@@ -153,8 +152,7 @@ export default {
 
   .logo {
     display: block;
-    font-size:35px !important;
-    margin-top:8px;
+    font-size:25px !important;
   }
 
   .schoolname {

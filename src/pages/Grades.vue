@@ -50,10 +50,11 @@ export default {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #grades td, #grades th {
-  border: 1px solid #ddd;
+  border: 1px solid $whitebox;
   padding: 8px;
 }
 
