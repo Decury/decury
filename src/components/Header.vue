@@ -116,7 +116,7 @@ export default {
   font-size: 20px;
   list-style-type: none;
   z-index: 999999;
-  box-shadow: 0 5px 5px -5px #333;
+  box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
   &:after { content: ""; display: table; clear: both; }
   svg {
     height: 50px;
