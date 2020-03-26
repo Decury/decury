@@ -1,6 +1,6 @@
 <template>
 <ul class="nav-mobile check">
-  <li class="logo">{{ logoname }}</li>
+  <li class="logo">Decury</li>
   <li class="schoolname">Liceo Italiano I.M.I</li>
   <li class="menu-container">
     <input id="menu-toggle" type="checkbox">
@@ -108,8 +108,8 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  background: $white;
-  color: $primary-color;
+  background: $primary-color;
+  color: $white;
   font-family: HammersmithOne;
   padding: 0;
   margin: 0;
@@ -123,7 +123,7 @@ export default {
     height: 50px;
     width: 65px;
     padding: 9px;
-    path { fill: $primary-color; }
+    path { fill: $white; }
     &.icon-close {
       display: none;
       padding: 15px;
@@ -158,6 +158,9 @@ export default {
   }
 
   .schoolname {
+    display: flex;
+    justify-content: center;
+    color: #bdbdbd;
   }
 
   .logoicon {
