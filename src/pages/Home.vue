@@ -11,9 +11,17 @@
             </div>
           </div>
           <div class="lower-container">
-            <h2>{{ name }} {{ surname }}</h2>
-            <p>{{ classroom }} - NO: {{ id }}</p>
+            <h2 class="profileh">{{ name }} {{ surname }}</h2>
+            <p>{{ classroom }} - Student</p>
           </div>
+        </div>
+        <div class="card">
+          <p class="classroomheading">Classroom:</p>
+          <h1 class="classroomh">{{ classroom }}</h1>
+          <ul class="minimenu">
+            <li><router-link to="/Streams">Streams</router-link></li>
+            <li><router-link to="/Classroom">Classroom</router-link></li>
+            <li><router-link to="/Homework">Homework</router-link></li>
         </div>
       </div>
 
@@ -26,49 +34,49 @@
         <div class="row">
           <div class="column">
             <div class="card">
-              <h2>Mathematics</h2>
+              <h2 class="gridh2">Mathematics</h2>
               <p>Maria Pia Di Prospero</p>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2>Physics</h2>
+              <h2 class="gridh2">Physics</h2>
               <p>Maria Pia Di Prospero</p>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2>Italian</h2>
+              <h2 class="gridh2">Italian</h2>
               <p>Veronica Felli</p>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2>Latin</h2>
+              <h2 class="gridh2">Latin</h2>
               <p>Veronica Felli</p>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2>World History</h2>
+              <h2 class="gridh2">World History</h2>
               <p>Defne Kut</p>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2>Turkish History</h2>
+              <h2 class="gridh2">Turkish History</h2>
               <p>Defne Kut</p>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2>Turkish Literature</h2>
+              <h2 class="gridh2">Turkish Literature</h2>
               <p>Maria Pia Di Prospero</p>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2>Geography</h2>
+              <h2 class="gridh2">Geography</h2>
               <p>Hamise Aydurmuş</p>
             </div>
           </div>
@@ -165,8 +173,24 @@ export default {
     justify-content: left;
 }
 
-.classroomdiv {
+.classroomheading {
+  font-size: 10px;
+  position: absolute;
+}
 
+.classroomh {
+    font-size: 50px;
+    text-align: left;
+}
+
+.minimenu {
+  text-align: left;
+}
+.minimenu li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    margin: 0 10px;
 }
 
 .avatar {
@@ -190,6 +214,10 @@ export default {
 }
 
 h2 {
+    font-size: calc(1.5em + 0.5vw);
+}
+
+.gridh2 {
     width: 100%;
     font-size: 2vw;
 }
@@ -199,7 +227,7 @@ h2 {
 }
 
 .upper-container {
-  height: 100px;
+  height: 80px;
   background: $primary-color;
   display: block;
 }
@@ -245,6 +273,14 @@ a {
 * {
     box-sizing: border-box;
     margin-bottom: 50px;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
 }
 
 .column {
@@ -294,10 +330,19 @@ a {
         padding: 0 10px;
     }
 
-    h2 {
+
+    .profile-grid {
+      grid-template-columns: 1fr 1,5fr;
+      grid-template-rows: 1fr;
+    }
+
+    .gridh2 {
         font-size: calc(1.5em + 0.5vw);
     }
 
+    .profileh {
+        font-size: calc(0.9em + 0.5vw);
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -305,6 +350,11 @@ a {
         width: 100%;
         display: block;
         margin-bottom: 20px;
+        padding: 10px;
+    }
+    .profile-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
     }
 }
 </style>
