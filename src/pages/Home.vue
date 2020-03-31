@@ -266,7 +266,6 @@ export default {
     transition: 0.3s;
     border-radius: 5px;
     display: block;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
     background-color: $white;
     margin-bottom: -25px;
@@ -292,7 +291,7 @@ h2 {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
     transform: scale(0.96);
 }
 
