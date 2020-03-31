@@ -1,27 +1,48 @@
 <template>
 <div>
-    <h1 style="margin-bottom:-40px; margin-top:50px;">Your Classroom</h1>
-    <h3 style="margin-bottom:-30px; margin-top:45px; color:grey; ">Overview of your classroom.</h3>
-    <div class="row1">
-      <div class="profile-grid">
-        <div class="card">
-          <div class="upper-container">
-            <div class="profile">
-              <img src="../assets/user.jpg" alt="Profile">
-            </div>
-          </div>
-          <div class="lower-container">
-            <h2 class="profileh">{{ name }} {{ surname }}</h2>
-            <p>{{ classroom }} - Student</p>
+  <h1 style="margin-bottom:-40px; margin-top:50px;">Your Classroom</h1>
+  <h3 style="margin-bottom:-30px; margin-top:45px; color:grey; ">Overview of your classroom.</h3>
+  <div class="row1">
+    <div class="profile-grid">
+      <div class="card">
+        <div class="upper-container">
+          <div class="profile">
+            <img src="../assets/user.jpg" alt="Profile">
           </div>
         </div>
-        <div class="card">
+        <div class="lower-container">
+          <h2 class="profileh">{{ name }} {{ surname }}</h2>
+          <p>{{ classroom }} - Student</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="wrapper">
           <p class="classroomheading">Classroom:</p>
           <h1 class="classroomh">{{ classroom }}</h1>
-          <ul class="minimenu">
-            <li><router-link to="/Streams">Streams</router-link></li>
-            <li><router-link to="/Classroom">Classroom</router-link></li>
-            <li><router-link to="/Homework">Homework</router-link></li>
+          <div class="minimenu">
+            <ul>
+              <li><a>
+                  <router-link to="/Streams">Streams</router-link>
+                </a></li>
+              <li><a>
+                  <router-link to="/Classroom">Classroom</router-link>
+                </a></li>
+              <li><a>
+                  <router-link to="/Homework">Homework</router-link>
+                </a></li>
+            </ul>
+            <ul>
+              <li><a>
+                  <router-link to="/Lessons">Lessons</router-link>
+                </a></li>
+              <li><a>
+                  <router-link to="/Exams">Exams</router-link>
+                </a></li>
+              <li><a>
+                  <router-link to="/Grades">Grades</router-link>
+                </a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -34,95 +55,128 @@
         <div class="row">
           <div class="column">
             <div class="card">
-              <h2 class="gridh2">Mathematics</h2>
-              <p>Maria Pia Di Prospero</p>
+              <div class="upper-container">
+                <h2 class="gridh2">Mathematics</h2>
+              </div>
+              <div class="wrapper">
+                <p>Maria Pia Di Prospero</p>
+              </div>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2 class="gridh2">Physics</h2>
-              <p>Maria Pia Di Prospero</p>
+              <div class="upper-container">
+                <h2 class="gridh2">Mathematics</h2>
+              </div>
+              <div class="wrapper">
+                <p>Maria Pia Di Prospero</p>
+              </div>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2 class="gridh2">Italian</h2>
-              <p>Veronica Felli</p>
+              <div class="upper-container">
+                <h2 class="gridh2">Mathematics</h2>
+              </div>
+              <div class="wrapper">
+                <p>Maria Pia Di Prospero</p>
+              </div>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2 class="gridh2">Latin</h2>
-              <p>Veronica Felli</p>
+              <div class="upper-container">
+                <h2 class="gridh2">Mathematics</h2>
+              </div>
+              <div class="wrapper">
+                <p>Maria Pia Di Prospero</p>
+              </div>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2 class="gridh2">World History</h2>
-              <p>Defne Kut</p>
+              <div class="upper-container">
+                <h2 class="gridh2">Mathematics</h2>
+              </div>
+              <div class="wrapper">
+                <p>Maria Pia Di Prospero</p>
+              </div>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2 class="gridh2">Turkish History</h2>
-              <p>Defne Kut</p>
+              <div class="upper-container">
+                <h2 class="gridh2">Mathematics</h2>
+              </div>
+              <div class="wrapper">
+                <p>Maria Pia Di Prospero</p>
+              </div>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2 class="gridh2">Turkish Literature</h2>
-              <p>Maria Pia Di Prospero</p>
+              <div class="upper-container">
+                <h2 class="gridh2">Mathematics</h2>
+              </div>
+              <div class="wrapper">
+                <p>Maria Pia Di Prospero</p>
+              </div>
             </div>
           </div>
           <div class="column">
             <div class="card">
-              <h2 class="gridh2">Geography</h2>
-              <p>Hamise Aydurmuş</p>
+              <div class="upper-container">
+                <h2 class="gridh2">Mathematics</h2>
+              </div>
+              <div class="wrapper">
+                <p>Maria Pia Di Prospero</p>
+              </div>
             </div>
           </div>
         </div>
 
 
+
+    </div>
+    <div class="assignmentsdiv">
+      <h1 style="margin-bottom:-40px; margin-top:50px;">Your Assignments</h1>
+      <h3 style="margin-bottom:-30px; margin-top:45px; color:grey;">Upcoming classwork you're assigned to.</h3>
+      <div class="row1">
+
+
+        <div class="horizontalrow">
+          <div class="scrollablecolumn">
+            <div class="scrollablecard">..</div>
+          </div>
+          <div class="scrollablecolumn">
+            <div class="scrollablecard">..</div>
+          </div>
+          <div class="scrollablecolumn">
+            <div class="scrollablecard">..</div>
+          </div>
+          <div class="scrollablecolumn">
+            <div class="scrollablecard">..</div>
+          </div>
+        </div>
+
+
       </div>
-      <div class="assignmentsdiv">
-        <h1 style="margin-bottom:-40px; margin-top:50px;">Your Assignments</h1>
-        <h3 style="margin-bottom:-30px; margin-top:45px; color:grey;">Upcoming classwork you're assigned to.</h3>
+      <div class="teachersdiv">
+        <h1 style="margin-bottom:-40px; margin-top:50px;">Your Teachers</h1>
+        <h3 style="margin-bottom:-30px; margin-top:45px; color:grey;">Teachers in classes you participate.</h3>
         <div class="row1">
-
-
-          <div class="horizontalrow">
-            <div class="scrollablecolumn">
-              <div class="scrollablecard">..</div>
-            </div>
-            <div class="scrollablecolumn">
-              <div class="scrollablecard">..</div>
-            </div>
-            <div class="scrollablecolumn">
-              <div class="scrollablecard">..</div>
-            </div>
-            <div class="scrollablecolumn">
-              <div class="scrollablecard">..</div>
-            </div>
-          </div>
-
-
-        </div>
-        <div class="teachersdiv">
-          <h1 style="margin-bottom:-40px; margin-top:50px;">Your Teachers</h1>
-          <h3 style="margin-bottom:-30px; margin-top:45px; color:grey;">Teachers in classes you participate.</h3>
-          <div class="row1">
-            <div class="teacherslist">
-              <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-              <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-              <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-              <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-              <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-              <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-            </div>
+          <div class="teacherslist">
+            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
+            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
+            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
+            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
+            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
+            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
           </div>
         </div>
-
       </div>
+
+    </div>
 </template>
 
 <script>
@@ -174,8 +228,8 @@ export default {
 }
 
 .classroomheading {
-  font-size: 10px;
-  position: absolute;
+    font-size: 10px;
+    position: absolute;
 }
 
 .classroomh {
@@ -184,13 +238,19 @@ export default {
 }
 
 .minimenu {
-  text-align: left;
+    text-align: left;
+}
+.minimenu ul {
+    display: inline-block;
 }
 .minimenu li {
+    margin: 0 10px;
+}
+
+.minimenu li a {
     list-style-type: none;
     text-decoration: none;
-    display: inline;
-    margin: 0 10px;
+    font-weight: bold;
 }
 
 .avatar {
@@ -207,10 +267,15 @@ export default {
     border-radius: 5px;
     display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
     text-align: center;
     background-color: $white;
     margin-bottom: -25px;
+}
+
+.wrapper {
+    padding: 16px;
+    margin-bottom: -25px;
+    background: $white;
 }
 
 h2 {
@@ -220,26 +285,33 @@ h2 {
 .gridh2 {
     width: 100%;
     font-size: 2vw;
+    display: inline-block;
+    color: $white;
+    text-align: left;
+    padding-left: 5px;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(0.96);
 }
 
 .upper-container {
-  height: 80px;
-  background: $primary-color;
-  display: block;
+    height: 80px;
+    width: 100%;
+    background: $primary-color;
+    display: block;
+    border-radius: 5px;
 }
 
 .lower-container {
-  background: $white;
-  display: inline-block;
-  height: 50px;
+    background: $white;
+    display: inline-block;
+    height: 50px;
 }
 
-.lower-container h2{
-  padding-top: 0;
+.lower-container h2 {
+    padding-top: 0;
 }
 
 .profile {
@@ -248,7 +320,7 @@ h2 {
     padding-top: 25px;
 }
 
-.profile img{
+.profile img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -276,11 +348,11 @@ a {
 }
 
 .profile-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
 }
 
 .column {
@@ -314,7 +386,7 @@ a {
 }
 
 .scrollablecard {
-    box-shadow: 0px 2px 7px 0px rgba(88, 69, 164, 0.11);
+    box-shadow: 0 2px 7px 0 rgba(88, 69, 164, 0.11);
     padding: 16px;
     text-align: center;
     background-color: $white;
@@ -330,10 +402,9 @@ a {
         padding: 0 10px;
     }
 
-
     .profile-grid {
-      grid-template-columns: 1fr 1,5fr;
-      grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1,5fr;
+        grid-template-rows: 1fr;
     }
 
     .gridh2 {
@@ -353,8 +424,8 @@ a {
         padding: 10px;
     }
     .profile-grid {
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }
 </style>
