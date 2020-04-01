@@ -67,7 +67,7 @@
             </div>
               </div>
             </div>
-            
+
           </div>
           <div class="column">
             <div class="card">
@@ -83,7 +83,7 @@
             </div>
               </div>
             </div>
-            
+
           </div>
           <div class="column">
             <div class="card">
@@ -99,7 +99,7 @@
             </div>
               </div>
             </div>
-            
+
           </div>
           <div class="column">
             <div class="card">
@@ -115,7 +115,7 @@
             </div>
               </div>
             </div>
-            
+
           </div>
           <div class="column">
             <div class="card">
@@ -131,7 +131,7 @@
             </div>
               </div>
             </div>
-            
+
           </div>
           <div class="column">
             <div class="card">
@@ -147,7 +147,7 @@
             </div>
               </div>
             </div>
-            
+
           </div>
           <div class="column">
             <div class="card">
@@ -163,7 +163,7 @@
             </div>
               </div>
             </div>
-            
+
           </div>
           <div class="column">
             <div class="card">
@@ -179,11 +179,11 @@
             </div>
               </div>
             </div>
-            
+
           </div>
-          
+
           </div>
-          
+
         </div>
 
 
@@ -274,7 +274,7 @@ export default {
 
 .row1 {
     margin-top: 50px;
-    
+
 }
 
 .box {
@@ -494,6 +494,8 @@ a {
     max-width: 390;
     min-width: 390;
     display: block;
+    transition: 0.3s;
+    box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
 }
 
 .scrollablecard:hover {
