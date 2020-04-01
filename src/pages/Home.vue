@@ -274,6 +274,7 @@ export default {
 
 .row1 {
     margin-top: 50px;
+    
 }
 
 .box {
@@ -331,12 +332,19 @@ margin-top:-50px;
 }
 
 .avatar {
+  transition: 0.3s;
     vertical-align: middle;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-right: 20px;
     display: inline-block;
+    box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
+}
+
+.avatar:hover {
+  transform: scale(0.92);
+   transition: 0.3s;
 }
 
 .card {
