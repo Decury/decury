@@ -21,7 +21,7 @@ export default {
   },
   data() {
     return {
-    title: 'School Name'
+    title: 'School Name | Decury'
     }
   }
 }
