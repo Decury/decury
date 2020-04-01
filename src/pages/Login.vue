@@ -132,7 +132,7 @@ h1 {
 
 @media only screen and (max-width: 890px) {
     #login {
-        width: 40%;
+        width: 60%;
     }
 }
 
