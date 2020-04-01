@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <title>{{ title }}</title>
+    <title>{{ title }} | Decury</title>
     <Header v-bind:logoname="title"></Header>
     <body>
       <router-view></router-view>
@@ -21,7 +21,7 @@ export default {
   },
   data() {
     return {
-    title: 'School Name | Decury'
+    title: 'School Name'
     }
   }
 }

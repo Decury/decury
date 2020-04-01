@@ -5,14 +5,16 @@
     <h3 class="formsubtitle">Login to your virtual classroom.</h3>
   </div>
   <div class="lower-container">
-    <label class="pure-material-textfield-filled logininput">
+    <label class="textfield logininput">
       <input type="text" name="username" v-model="input.username" placeholder=" ">
       <span>Username</span>
     </label>
-    <label class="pure-material-textfield-filled logininput">
+    </br>
+    <label class="textfield logininput">
       <input type="password" name="password" v-model="input.password" placeholder=" ">
       <span>Password</span>
     </label>
+    </br>
     <button type="button" v-on:click="login()">Login</button>
   </div>
 </div>
@@ -66,18 +68,17 @@ export default {
 }
 
 .formtitle {
-    font-family: 'HammerSmithOne';
     padding-top: 15px;
 }
 
 .formsubtitle {
+    font-size: 15px;
     color: lightgrey;
-    font-family: 'HammerSmithOne';
     margin-top: -13px;
 }
 
 .logininput {
-margin-bottom:20px;
+  margin-bottom:20px;
 }
 
 .upper-container {
@@ -92,7 +93,7 @@ margin-bottom:20px;
     text-align: center;
     background: $white;
     padding-top: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 
 
@@ -107,7 +108,6 @@ margin-bottom:20px;
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 20px;
-    font-family: 'HammerSmithOne';
 }
 
 .lower-container button:hover {}
@@ -120,13 +120,13 @@ h1 {
 
 @media only screen and (max-width: 1400px) {
     #login {
-        width: 25%;
+        width: 35%;
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     #login {
-        width: 35%;
+        width: 55%;
     }
 }
 
@@ -148,25 +148,24 @@ h1 {
     }
 }
 
-.pure-material-textfield-filled {
+.textfield {
     position: relative;
-    display: inline-block;
-    font-family: 'HammerSmithOne';
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     overflow: hidden;
 }
 
 /* Input, Textarea */
-.pure-material-textfield-filled > input,
-.pure-material-textfield-filled > textarea {
+.textfield > input,
+.textfield > textarea {
     display: block;
     box-sizing: border-box;
     margin: 0;
     border: none;
     border-top: solid 27px transparent;
-    border-bottom: solid 1px rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6);
-    border-radius: 4px 4px 0 0;
+    border-bottom: solid 1px rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.3);
+    border-radius: 5px 5px 0 0;
     padding: 0 12px 10px;
     width: 100%;
     height: inherit;
@@ -182,8 +181,8 @@ h1 {
 }
 
 /* Span */
-.pure-material-textfield-filled > input + span,
-.pure-material-textfield-filled > textarea + span {
+.textfield > input + span,
+.textfield > textarea + span {
     position: absolute;
     top: 0;
     left: 0;
@@ -200,8 +199,8 @@ h1 {
 }
 
 /* Underline */
-.pure-material-textfield-filled > input + span::after,
-.pure-material-textfield-filled > textarea + span::after {
+.textfield > input + span::after,
+.textfield > textarea + span::after {
     content: "";
     position: absolute;
     left: 0;
@@ -216,62 +215,62 @@ h1 {
 }
 
 /* Hover */
-.pure-material-textfield-filled > input:hover,
-.pure-material-textfield-filled > textarea:hover {
-    border-bottom-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.87);
+.textfield > input:hover,
+.textfield > textarea:hover {
+    border-bottom-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.5);
     background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.08);
 }
 
 /* Placeholder-shown */
-.pure-material-textfield-filled > input:not(:focus):placeholder-shown + span,
-.pure-material-textfield-filled > textarea:not(:focus):placeholder-shown + span {
+.textfield > input:not(:focus):placeholder-shown + span,
+.textfield > textarea:not(:focus):placeholder-shown + span {
     font-size: inherit;
     line-height: 48px;
 }
 
 /* Focus */
-.pure-material-textfield-filled > input:focus,
-.pure-material-textfield-filled > textarea:focus {
+.textfield > input:focus,
+.textfield > textarea:focus {
     outline: none;
 }
 
-.pure-material-textfield-filled > input:focus + span,
-.pure-material-textfield-filled > textarea:focus + span {
+.textfield > input:focus + span,
+.textfield > textarea:focus + span {
     color: rgb(var(--pure-material-primary-rgb, 88, 69, 164));
 }
 
-.pure-material-textfield-filled > input:focus + span::before,
-.pure-material-textfield-filled > textarea:focus + span::before {
+.textfield > input:focus + span::before,
+.textfield > textarea:focus + span::before {
     opacity: 0.12;
 }
 
-.pure-material-textfield-filled > input:focus + span::after,
-.pure-material-textfield-filled > textarea:focus + span::after {
+.textfield > input:focus + span::after,
+.textfield > textarea:focus + span::after {
     transform: scale(1);
 }
 
 /* Disabled */
-.pure-material-textfield-filled > input:disabled,
-.pure-material-textfield-filled > textarea:disabled {
+.textfield > input:disabled,
+.textfield > textarea:disabled {
     border-bottom-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38);
     color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38);
     background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.24);
 }
 
-.pure-material-textfield-filled > input:disabled + span,
-.pure-material-textfield-filled > textarea:disabled + span {
+.textfield > input:disabled + span,
+.textfield > textarea:disabled + span {
     color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38);
 }
 
 /* Faster transition in Safari for less noticable fractional font-size issue */
 @media not all and (min-resolution:.001dpcm) {
     @supports (-webkit-appearance:none) {
-        .pure-material-textfield-filled > input,
-        .pure-material-textfield-filled > input + span,
-        .pure-material-textfield-filled > input + span::after,
-        .pure-material-textfield-filled > textarea,
-        .pure-material-textfield-filled > textarea + span,
-        .pure-material-textfield-filled > textarea + span::after {
+        .textfield > input,
+        .textfield > input + span,
+        .textfield > input + span::after,
+        .textfield > textarea,
+        .textfield > textarea + span,
+        .textfield > textarea + span::after {
             transition-duration: 0.1s;
         }
     }
