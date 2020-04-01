@@ -57,82 +57,133 @@
             <div class="card">
               <div class="upper-container">
                 <h2 class="gridh2">Mathematics</h2>
+                <p class="teachername">Maria Pia Di Prospero</p>
               </div>
               <div class="wrapper">
-                <p>Maria Pia Di Prospero</p>
+                <div class="homeworklist">
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
+            </div>
               </div>
             </div>
+            
           </div>
           <div class="column">
             <div class="card">
               <div class="upper-container">
                 <h2 class="gridh2">Mathematics</h2>
+                <p class="teachername">Maria Pia Di Prospero</p>
               </div>
               <div class="wrapper">
-                <p>Maria Pia Di Prospero</p>
+                <div class="homeworklist">
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
+            </div>
               </div>
             </div>
+            
           </div>
           <div class="column">
             <div class="card">
               <div class="upper-container">
                 <h2 class="gridh2">Mathematics</h2>
+                <p class="teachername">Maria Pia Di Prospero</p>
               </div>
               <div class="wrapper">
-                <p>Maria Pia Di Prospero</p>
+                <div class="homeworklist">
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
+            </div>
               </div>
             </div>
+            
           </div>
           <div class="column">
             <div class="card">
               <div class="upper-container">
                 <h2 class="gridh2">Mathematics</h2>
+                <p class="teachername">Maria Pia Di Prospero</p>
               </div>
               <div class="wrapper">
-                <p>Maria Pia Di Prospero</p>
+                <div class="homeworklist">
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
+            </div>
               </div>
             </div>
+            
           </div>
           <div class="column">
             <div class="card">
               <div class="upper-container">
                 <h2 class="gridh2">Mathematics</h2>
+                <p class="teachername">Maria Pia Di Prospero</p>
               </div>
               <div class="wrapper">
-                <p>Maria Pia Di Prospero</p>
+                <div class="homeworklist">
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
+            </div>
               </div>
             </div>
+            
           </div>
           <div class="column">
             <div class="card">
               <div class="upper-container">
                 <h2 class="gridh2">Mathematics</h2>
+                <p class="teachername">Maria Pia Di Prospero</p>
               </div>
               <div class="wrapper">
-                <p>Maria Pia Di Prospero</p>
+                <div class="homeworklist">
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
+            </div>
               </div>
             </div>
+            
           </div>
           <div class="column">
             <div class="card">
               <div class="upper-container">
                 <h2 class="gridh2">Mathematics</h2>
+                <p class="teachername">Maria Pia Di Prospero</p>
               </div>
               <div class="wrapper">
-                <p>Maria Pia Di Prospero</p>
+                <div class="homeworklist">
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
+            </div>
               </div>
             </div>
+            
           </div>
           <div class="column">
             <div class="card">
               <div class="upper-container">
                 <h2 class="gridh2">Mathematics</h2>
+                <p class="teachername">Maria Pia Di Prospero</p>
               </div>
               <div class="wrapper">
-                <p>Maria Pia Di Prospero</p>
+                <div class="homeworklist">
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
+            </div>
               </div>
             </div>
+            
           </div>
+          
+          </div>
+          
         </div>
 
 
@@ -223,6 +274,7 @@ export default {
 
 .row1 {
     margin-top: 50px;
+    
 }
 
 .box {
@@ -234,6 +286,14 @@ export default {
     box-shadow: 5px 5px 5px #888888;
 }
 
+.homeworklist {
+margin-left:-160px;
+margin-top:-50px;
+}
+
+.homeworklistitem {
+}
+
 .teacherslist {
     overflow-x: scroll;
     overflow-y: hidden;
@@ -241,6 +301,8 @@ export default {
     text-align: center;
     display: flex;
     justify-content: left;
+    padding-top:10px;
+    padding-left:15px;
 }
 
 .classroomheading {
@@ -270,12 +332,19 @@ export default {
 }
 
 .avatar {
+  transition: 0.3s;
     vertical-align: middle;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-right: 20px;
     display: inline-block;
+    box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
+}
+
+.avatar:hover {
+  transform: scale(0.92);
+   transition: 0.3s;
 }
 
 .card {
@@ -285,6 +354,7 @@ export default {
     text-align: center;
     background-color: $white;
     margin-bottom: -25px;
+    box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
 }
 
 .wrapper {
@@ -307,6 +377,18 @@ h2 {
     padding-left: 5px;
     padding-top: auto;
     padding-bottom: auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+.teachername {
+    text-align: left;
+    padding-left: 5px;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top:-50px;
+    margin-left:5px;
+  color:lightgrey;
 }
 
 .card:hover {
