@@ -361,6 +361,7 @@ margin-top:-50px;
     padding: 16px;
     margin-bottom: -25px;
     background: $white;
+    display: block;
     border-radius: 20px;
 }
 
