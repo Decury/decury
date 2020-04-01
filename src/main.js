@@ -29,6 +29,7 @@ import Exams from './pages/Exams.vue'
 import Grades from './pages/Grades.vue'
 import Settings from './pages/Settings.vue'
 import About from './pages/About.vue'
+import Login from './pages/Login.vue'
 
 Vue.use(VueRouter)
 
@@ -73,6 +74,10 @@ const router = new VueRouter({
     {
       path: '/About',
       component: About
+    },
+    {
+      path: '/Login',
+      component: Login
     }
   ],
   mode: 'history'

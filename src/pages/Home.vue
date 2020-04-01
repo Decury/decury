@@ -146,16 +146,32 @@
 
         <div class="horizontalrow">
           <div class="scrollablecolumn">
-            <div class="scrollablecard">..</div>
+            <div class="scrollablecard">
+                <div class="wrapper">
+                  ..
+                </div>
+            </div>
           </div>
           <div class="scrollablecolumn">
-            <div class="scrollablecard">..</div>
+            <div class="scrollablecard">
+                <div class="wrapper">
+                  ..
+                </div>
+            </div>
           </div>
           <div class="scrollablecolumn">
-            <div class="scrollablecard">..</div>
+            <div class="scrollablecard">
+                <div class="wrapper">
+                  ..
+                </div>
+            </div>
           </div>
           <div class="scrollablecolumn">
-            <div class="scrollablecard">..</div>
+            <div class="scrollablecard">
+                <div class="wrapper">
+                  ..
+                </div>
+            </div>
           </div>
         </div>
 
@@ -283,11 +299,13 @@ h2 {
 
 .gridh2 {
     width: 100%;
-    font-size: 2vw;
+    font-size: calc(1em + 0.5vw);
     display: inline-block;
     color: $white;
     text-align: left;
     padding-left: 5px;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 .card:hover {
@@ -385,13 +403,19 @@ a {
 }
 
 .scrollablecard {
-    box-shadow: 0 2px 7px 0 rgba(88, 69, 164, 0.11);
-    padding: 16px;
+    border-radius: 5px;
     text-align: center;
     background-color: $white;
     margin-bottom: 20px;
+    margin-top: 10px;
     max-width: 390;
     min-width: 390;
+    display: block;
+}
+
+.scrollablecard:hover {
+  box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
+  transform: scale(0.96);
 }
 
 @media only screen and (max-width: 886px) {
@@ -407,7 +431,7 @@ a {
     }
 
     .gridh2 {
-        font-size: calc(1.5em + 0.5vw);
+        font-size: calc(1em + 0.5vw);
     }
 
     .profileh {
