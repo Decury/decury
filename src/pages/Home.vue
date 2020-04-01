@@ -291,6 +291,7 @@ export default {
     padding: 16px;
     margin-bottom: -25px;
     background: $white;
+    border-radius: 20px;
 }
 
 h2 {
