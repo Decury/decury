@@ -354,6 +354,7 @@ margin-top:-50px;
     text-align: center;
     background-color: $white;
     margin-bottom: -25px;
+    box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
 }
 
 .wrapper {
