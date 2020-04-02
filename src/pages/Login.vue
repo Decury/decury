@@ -37,7 +37,7 @@ export default {
         if (this.input.username == this.$parent.mockAccount.username && this.input.password == this.$parent.mockAccount.password) {
           this.$emit("authenticated", true);
           this.$router.replace({
-            name: "Home"
+            name: "home"
           });
         } else {
           alert("The username and / or password is incorrect");
