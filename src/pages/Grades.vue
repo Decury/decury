@@ -42,7 +42,7 @@ export default {
 
 .wrapper {
     width: 100%;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 #grades {
   border-collapse: collapse;

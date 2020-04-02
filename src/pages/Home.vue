@@ -63,8 +63,9 @@
                 <div class="homeworklist">
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
+                  <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
-            </div>
+                </div>
               </div>
             </div>
 
@@ -80,7 +81,7 @@
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
-            </div>
+                </div>
               </div>
             </div>
 
@@ -96,7 +97,7 @@
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
-            </div>
+                </div>
               </div>
             </div>
 
@@ -112,7 +113,7 @@
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
-            </div>
+                </div>
               </div>
             </div>
 
@@ -128,7 +129,7 @@
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
-            </div>
+                </div>
               </div>
             </div>
 
@@ -144,7 +145,7 @@
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
-            </div>
+                </div>
               </div>
             </div>
 
@@ -160,7 +161,7 @@
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
-            </div>
+                </div>
               </div>
             </div>
 
@@ -176,15 +177,15 @@
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link><br>
                   <router-link to="" class="homeworklistitem">Compiti per mercoledi, p.222 e.50</router-link>
-            </div>
+                </div>
               </div>
             </div>
-
-          </div>
 
           </div>
 
         </div>
+
+      </div>
 
 
 
@@ -198,30 +199,46 @@
         <div class="horizontalrow">
           <div class="scrollablecolumn">
             <div class="scrollablecard">
-                <div class="wrapper">
-                  ..
-                </div>
+              <div class="upper-container">
+                <h2 class="gridh2">Exam</h2>
+                <p class="teachername">Mathematics</p>
+              </div>
+              <div class="wrapper">
+                ..
+              </div>
             </div>
           </div>
           <div class="scrollablecolumn">
             <div class="scrollablecard">
-                <div class="wrapper">
-                  ..
-                </div>
+              <div class="upper-container">
+                <h2 class="gridh2">Exam</h2>
+                <p class="teachername">Mathematics</p>
+              </div>
+              <div class="wrapper">
+                ..
+              </div>
             </div>
           </div>
           <div class="scrollablecolumn">
             <div class="scrollablecard">
-                <div class="wrapper">
-                  ..
-                </div>
+              <div class="upper-container">
+                <h2 class="gridh2">Exam</h2>
+                <p class="teachername">Mathematics</p>
+              </div>
+              <div class="wrapper">
+                ..
+              </div>
             </div>
           </div>
           <div class="scrollablecolumn">
             <div class="scrollablecard">
-                <div class="wrapper">
-                  ..
-                </div>
+              <div class="upper-container">
+                <h2 class="gridh2">Exam</h2>
+                <p class="teachername">Mathematics</p>
+              </div>
+              <div class="wrapper">
+                ..
+              </div>
             </div>
           </div>
         </div>
@@ -287,11 +304,21 @@ export default {
 }
 
 .homeworklist {
-margin-left:-160px;
-margin-top:-50px;
+    margin-top: -50px;
+    height: 100px;
+    overflow-y: scroll;
+    display: block;
 }
 
 .homeworklistitem {
+  text-align: left;
+  text-decoration: none;
+  color: $gray;
+}
+
+.homeworklistitem:hover {
+  color: $primary-color;
+  transition: 0.2s;
 }
 
 .teacherslist {
@@ -301,8 +328,8 @@ margin-top:-50px;
     text-align: center;
     display: flex;
     justify-content: left;
-    padding-top:10px;
-    padding-left:15px;
+    padding-top: 10px;
+    padding-left: 15px;
 }
 
 .classroomheading {
@@ -331,20 +358,25 @@ margin-top:-50px;
     font-weight: bold;
 }
 
+.minimenu li a:hover {
+    color: $primary-color;
+    transition: 0.2s;
+}
+
 .avatar {
-  transition: 0.3s;
+    transition: 0.3s;
     vertical-align: middle;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-right: 20px;
     display: inline-block;
-    box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
+    box-shadow: 0 2px 24px 0 rgba(88, 69, 164, 0.11);
 }
 
 .avatar:hover {
-  transform: scale(0.92);
-   transition: 0.3s;
+    transform: scale(0.92);
+    transition: 0.3s;
 }
 
 .card {
@@ -354,7 +386,7 @@ margin-top:-50px;
     text-align: center;
     background-color: $white;
     margin-bottom: -25px;
-    box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
+    box-shadow: 0 2px 24px 0 rgba(88, 69, 164, 0.11);
 }
 
 .wrapper {
@@ -378,8 +410,8 @@ h2 {
     padding-left: 5px;
     padding-top: auto;
     padding-bottom: auto;
-    margin-top:10px;
-    margin-left:5px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 .teachername {
@@ -387,13 +419,13 @@ h2 {
     padding-left: 5px;
     padding-top: auto;
     padding-bottom: auto;
-    margin-top:-50px;
-    margin-left:5px;
-  color:lightgrey;
+    margin-top: -50px;
+    margin-left: 5px;
+    color: lightgrey;
 }
 
 .card:hover {
-    box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
+    box-shadow: 0 2px 24px 0 rgba(88, 69, 164, 0.11);
     transform: scale(0.96);
 }
 
@@ -496,12 +528,12 @@ a {
     min-width: 390;
     display: block;
     transition: 0.3s;
-    box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
+    box-shadow: 0 2px 24px 0 rgba(88, 69, 164, 0.11);
 }
 
 .scrollablecard:hover {
-  box-shadow: 0px 2px 24px 0px rgba(88, 69, 164, 0.11);
-  transform: scale(0.96);
+    box-shadow: 0 2px 24px 0 rgba(88, 69, 164, 0.11);
+    transform: scale(0.96);
 }
 
 @media only screen and (max-width: 886px) {
