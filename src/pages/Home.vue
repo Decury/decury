@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="home">
   <h1 style="margin-bottom:-40px; margin-top:50px;">Your Profile</h1>
   <h3 style="margin-bottom:-30px; margin-top:45px; color:grey; ">Overview of your profile.</h3>
   <div class="row1">
@@ -322,6 +322,7 @@ export default {
 }
 
 .homeworklist {
+    text-align: left;
     margin-top: -50px;
     height: 100px;
     overflow-y: scroll;
@@ -329,7 +330,6 @@ export default {
 }
 
 .homeworklistitem {
-  text-align: left;
   text-decoration: none;
   color: $gray;
 }
@@ -347,6 +347,7 @@ export default {
     display: flex;
     justify-content: left;
     padding-top: 10px;
+    padding-bottom: 20px;
     padding-left: 15px;
 }
 
@@ -550,7 +551,6 @@ a {
 }
 
 .horizontalrow {
-    margin: 0 -5px;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;

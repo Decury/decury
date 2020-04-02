@@ -1,11 +1,12 @@
 <template>
-  <div id="app">
-    <title>{{ title }} | Decury</title>
-    <Header v-bind:logoname="title"></Header>
-    <body>
-      <router-view></router-view>
-    </body>
-  </div>
+<div id="app">
+  <title>{{ title }} | Decury</title>
+  <Header v-bind:logoname="title"></Header>
+
+  <body>
+    <router-view @authenticated="setAuthenticated" />
+  </body>
+</div>
 </template>
 
 <script>
@@ -21,7 +22,27 @@ export default {
   },
   data() {
     return {
-    title: 'School Name'
+      title: 'School Name',
+      authenticated: false,
+      mockAccount: {
+        username: "student",
+        password: "password"
+      },
+      mounted() {
+        if (!this.authenticated) {
+          this.$router.replace({
+            name: "login"
+          });
+        }
+      },
+      methods: {
+        setAuthenticated(status) {
+          this.authenticated = status;
+        },
+        logout() {
+          this.authenticated = false;
+        }
+      }
     }
   }
 }
@@ -40,6 +61,7 @@ html {
 
 body {
     padding: 10px;
+    margin-bottom: 40px;
 }
 
 *,
