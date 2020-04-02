@@ -108,9 +108,13 @@ export default {
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 20px;
+    transition: 0.2s;
 }
 
-.lower-container button:hover {}
+.lower-container button:hover {
+    transform: scale(0.95);
+    transition: 0.3s;
+}
 
 h1 {
     color: $white;

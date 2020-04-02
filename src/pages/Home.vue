@@ -1,7 +1,7 @@
 <template>
 <div>
-  <h1 style="margin-bottom:-40px; margin-top:50px;">Your Classroom</h1>
-  <h3 style="margin-bottom:-30px; margin-top:45px; color:grey; ">Overview of your classroom.</h3>
+  <h1 style="margin-bottom:-40px; margin-top:50px;">Your Profile</h1>
+  <h3 style="margin-bottom:-30px; margin-top:45px; color:grey; ">Overview of your profile.</h3>
   <div class="row1">
     <div class="profile-grid">
       <div class="card">
@@ -18,7 +18,7 @@
       <div class="card">
         <div class="wrapper">
           <p class="classroomheading">Classroom:</p>
-          <h1 class="classroomh">{{ classroom }}</h1>
+          <router-link to="/Classroom"><h1 class="classroomh">{{ classroom }}</h1></router-link>
           <div class="minimenu">
             <ul>
               <li><a>
@@ -250,12 +250,30 @@
         <h3 style="margin-bottom:-30px; margin-top:45px; color:grey;">Teachers in classes you participate.</h3>
         <div class="row1">
           <div class="teacherslist">
-            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
-            <img src="../assets/user.jpg" alt="Avatar" class="avatar">
+            <div class="avatar">
+              <img src="../assets/user.jpg" alt="Avatar">
+              <span>Maria Pia Di Prospero</span>
+            </div>
+            <div class="avatar">
+              <img src="../assets/user.jpg" alt="Avatar">
+              <span>Maria Pia Di Prospero</span>
+            </div>
+            <div class="avatar">
+              <img src="../assets/user.jpg" alt="Avatar">
+              <span>Maria Pia Di Prospero</span>
+            </div>
+            <div class="avatar">
+              <img src="../assets/user.jpg" alt="Avatar">
+              <span>Maria Pia Di Prospero</span>
+            </div>
+            <div class="avatar">
+              <img src="../assets/user.jpg" alt="Avatar">
+              <span>Maria Pia Di Prospero</span>
+            </div>
+            <div class="avatar">
+              <img src="../assets/user.jpg" alt="Avatar">
+              <span>Maria Pia Di Prospero</span>
+            </div>
           </div>
         </div>
       </div>
@@ -337,9 +355,18 @@ export default {
     position: absolute;
 }
 
+a {
+    text-decoration: none;
+}
+
 .classroomh {
     font-size: 50px;
     text-align: left;
+}
+
+.classroomh:hover {
+    color: $primary-color;
+    transition: 0.2s;
 }
 
 .minimenu {
@@ -366,12 +393,29 @@ export default {
 .avatar {
     transition: 0.3s;
     vertical-align: middle;
+    display: inline-block;
+    margin: 10px 20px;
+    max-height: 150px;
+}
+.avatar img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-right: 20px;
-    display: inline-block;
     box-shadow: 0 2px 24px 0 rgba(88, 69, 164, 0.11);
+}
+
+.avatar span {
+    transition: 0.3s;
+    padding: 4px 10px;
+    position: relative;
+    margin-top: -80px;
+    display: block;
+    background: $primary-color;
+    border-radius: 0 16px 16px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color:white;
 }
 
 .avatar:hover {
